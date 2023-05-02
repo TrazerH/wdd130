@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Trazer</title>
+  </head>
+  <body>
+    <img src="images/what-is-taro-and-how-to-cook-it-thumb.webp" alt="Taro: a white root vegetable with purple streaks" />
+  </body>
+</html>
