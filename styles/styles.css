@@ -33,7 +33,7 @@ h1 {
 
 div {
     display: grid;
-    align-items: right;
+    align-items: center;
 }
 
 main {
@@ -68,7 +68,7 @@ aside {
 }
 aside h2 {
     position: absolute;
-    top: 150px;
+    top: 250px;
     left: 380px;
 }
 aside img {
