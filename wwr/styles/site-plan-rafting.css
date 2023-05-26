@@ -2,19 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Source+Sans+Pro&display=swap');
 
 :root {
-    --primary-color: PrussianBlue #102E4A;
-    --secondary-color: BlueNCS #2E86AB;
-    --third-color: SchoolBusYellow #F7D417;
-    --accent-color1: FrenchGray #D2D5DD;
-    --accent-color2: Mindaro #F8FA90;
+    --primary-color: #102E4A;
+    --secondary-color: #2E86AB;
+    --third-color: #F7D417;
+    --accent-color1: #D2D5DD;
+    --accent-color2: #F8FA90;
 
     --heading-font: 'Open Sans', serif;
     --paragraph-font: 'Source Sans Pro', serif;
 
-    --nav-background-color: 
-    --nav-link-color:
-    --nav-hover-link-color:
-    --nav-hover-background-color:
+    --nav-background-color: #2E86AB;
+    --nav-link-color: #102E4A;
+    --nav-hover-link-color: #102E4A;
+    --nav-hover-background-color: #F8FA90;
 }
 
 body {
@@ -41,4 +41,20 @@ nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
 }
