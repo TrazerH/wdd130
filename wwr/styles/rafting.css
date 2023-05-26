@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Source+Sans+Pro&display=swap');
+
+
+:root {
+    --primary-color: #102E4A;
+    --secondary-color: #2E86AB;
+    --third-color: #F7D417;
+    --accent-color1: #D2D5DD;
+    --accent-color2: #F8FA90;
+
+    --heading-font: 'Open Sans', serif;
+    --paragraph-font: 'Source Sans Pro', serif;
+
+    --nav-background-color: #2E86AB;
+    --nav-link-color: #102E4A;
+    --nav-hover-link-color: #102E4A;
+    --nav-hover-background-color: #F8FA90;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color)
+}
+
