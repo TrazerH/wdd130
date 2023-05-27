@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - White Water Rafting</title>
+    <title>About Us</title>
     <meta name="description" content="About page for rafting site">
     <meta name="author" content="Trazer Hazen">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
     <header>
-        <img src="images/gravity.png" alt="Rafting Site Logo">
-        <nav>
-            <a href="index.html">Index</a>
-            <a href="about.html">About</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+        <div class="headerbox">
+            <img src="images/gravity.png" alt="Rafting Site Logo">
+            <nav>
+                <a href="index.html">Index</a>
+                <a href="about.html">About</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
     </header>
     <main>
         <div class="hero">
@@ -29,24 +31,46 @@
             </article>
         </div>
         <section>
-            <h2>History</h2>
-            <p>We started in 1212 and are one of the oldest rafting companies around. Stop by to see the remains of the first head of the company, R.R. White. He has been mumified using secret rafting tecniques.</p>
+            <div class="historybox">
+                <h2>History</h2>
+                <p>We started in 1212 and are one of the oldest rafting companies around. Stop by to see the remains of the first head of the company, R.R. White. He has been mumified using secret rafting tecniques.</p>
+            </div>
         </section>
-        <section>
+        <section class="adventurebox">
             <h2>Adventure Awaits You!</h2>
-            <img src="images/salmon-boats.jpg" alt="Salmon Boats">
-            <img src="images/salmon-kayak5.jpg" alt="Salmon Kayaks being tossed around like chaff in the wind">
-            <img src="images/bighorn-ram.jpg" alt="A big horn ram">
-            <img src="images/on-water.jpg" alt="A family on a raft">
-            <img src="images/salmon-cabins.jpg" alt="Salmon Cabins">
+            <div>
+                <figure>
+                    <img src="images/salmon-boats.jpg" alt="Salmon Boats">
+                    <figcaption>Salmon Run</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/salmon-kayak5.jpg" alt="Salmon Kayaks being tossed around like chaff in the wind">
+                    <figcaption>Dookie Falls</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/bighorn-ram.jpg" alt="A big horn ram">
+                    <figcaption>Mr. Sandrow</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/on-water.jpg" alt="A family on a raft">
+                    <figcaption>Big Mike's Revenge</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/salmon-cabins.jpg" alt="Salmon Cabins">
+                    <figcaption>Haunted Cabins at Camp Mound</figcaption>
+                </figure>
+                
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>© 2023 Gravity Adventures - Trazer Hazen</p>
-        <img src="images/twitter.png" alt="Twitter">
-        <img src="images/facebook.png" alt="Facebook">
-        <img src="images/reddit.png" alt="Reddit">
+        <p class="footercolor">© 2023 Gravity Adventures - Trazer Hazen</p>
+        <div class="socials">
+            <img src="images/twitter.png" alt="Twitter">
+            <img src="images/facebook.png" alt="Facebook">
+            <img src="images/reddit.png" alt="Reddit">
+        </div>
     </footer>
 </body>
 </html>

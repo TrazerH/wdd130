@@ -12,8 +12,8 @@
     --heading-font: 'Open Sans', serif;
     --paragraph-font: 'Source Sans Pro', serif;
 
-    --nav-background-color: #2E86AB;
-    --nav-link-color: #102E4A;
+    --nav-background-color: #102E4A;
+    --nav-link-color: #2E86AB;
     --nav-hover-link-color: #102E4A;
     --nav-hover-background-color: #F8FA90;
 }
@@ -38,9 +38,51 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color)
 }
 
+nav {
+    background-color: var(--nav-background-color);
+    border: 1px;
+    border-color: #2E86AB;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.headerbox {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    background-color: #102E4A;
+    padding: 1rem;
+}
+
+.headerbox img {
+    position: right;
+    float: left;
+    display: block;
+    width: 80%;
+    height: auto;
+}
+
+
 .hero {
     margin: 10px auto;
     position: relative;
+    
 }
 
 .hero img {
@@ -71,7 +113,7 @@ article {
     left: 33%;
     bottom: 24%;
     
-	background: radial-gradient(#eee, #4567aa);
+	background: var(--accent-color2);
 	padding: 0.65rem;
 }
 
@@ -88,24 +130,63 @@ p {
     color: var(--primary-color);
 }
 
-nav {
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
-    display: flex;
+.historybox {
+    display: block;
+    position: relative;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    
 }
 
-nav a {
-    display: block;
-    color: var(--nav-link-color);
-    text-decoration: none;
+.historybox h2 {
     padding: 1rem;
 }
 
-nav a:link, nav a:visited {
-    color: var(--nav-link-color);
+.adventurebox {
+    display: block;
+    position: relative;
+    padding: 1rem;
+    background-color: var(--secondary-color);
 }
 
-nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
+.adventurebox h2 {
+    position: relative;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.adventurebox div {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    position: relative;
+    justify-content: space-between;
+}
+
+.adventurebox img {
+    width: 80%;
+    height: auto;
+}
+
+footer {
+    display: block;
+    position: relative;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: #102E4A;
+    padding: 1rem;
+    
+}
+
+.footercolor {
+    color: var(--secondary-color);
+}
+
+.footercolor
+
+.socials {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    float: right
 }
