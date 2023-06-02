@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 nav {
     background-color: var(--nav-background-color);
     border: 1px;
-    border-color: solid #2E86AB;
+    border-color:#2E86AB;
     font-size: 1.2rem;
     display: flex;
     justify-content: space-around;
@@ -75,7 +75,6 @@ nav a:hover {
 }
 
 .headerbox img {
-    position: right;
     float: left;
     display: block;
     width: 80%;
