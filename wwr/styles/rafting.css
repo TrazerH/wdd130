@@ -23,15 +23,19 @@
     margin: 0;
     padding: 0;
     
+    
 }
+
 
 body {
     
     font-family: var(--paragraph-font);
     max-width: 960px;
-    padding: 20px;
-    
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
+    
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
@@ -41,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 nav {
     background-color: var(--nav-background-color);
     border: 1px;
-    border-color: #2E86AB;
+    border-color: solid #2E86AB;
     font-size: 1.2rem;
     display: flex;
     justify-content: space-around;
@@ -49,7 +53,7 @@ nav {
 
 nav a {
     display: block;
-    color: var(--nav-link-color);
+    color: var(--nav-hover-background-color);
     text-decoration: none;
     padding: 1rem;
 }
@@ -80,7 +84,7 @@ nav a:hover {
 
 
 .hero {
-    margin: 10px auto;
+    margin: auto;
     position: relative;
     
 }
@@ -165,6 +169,103 @@ p {
 .adventurebox img {
     width: 80%;
     height: auto;
+}
+
+.contact {
+    padding: 1rem;
+    background: var(--accent-color2);
+}
+
+.companyinfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem
+}
+
+
+iframe {
+    height: 15rem;
+}
+
+.employeesbox {
+    margin: 0;
+    padding: 1rem;
+    display: block;
+    color: #102E4A;
+    background-color: var(--secondary-color);
+}
+
+.employees {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    justify-content: space-between;
+    padding: 1rem;
+
+}
+
+.employees img {
+    width: 80% ;
+    height: auto;
+}
+
+form {
+    border: 2px solid var(--nav-background-color);
+    background-color: var(--third-color);
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 1rem;
+    margin: 1rem;
+    border: 1px solid var(--primary-color);
+    background-color: #F8FA90;
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.3rem;
+    color: maroon;
+    font-size: 1.5rem;
+
+}
+
+label, input, button, select, textarea {
+    font-family: var(--source-sans-pro);
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.3rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+    background-color: var(--nav-background-color);
+    color: var(--accent-color2);
+    border: 2px solid black;
+    border-radius: 4rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+button:hover {
+    background-color: lightgreen;
+    color: blue;
 }
 
 footer {
