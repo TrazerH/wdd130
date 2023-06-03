@@ -3,11 +3,11 @@
 
 
 :root {
-    --primary-color: #102E4A;
-    --secondary-color: #2E86AB;
+    --primary-color: #091c2e;
+    --secondary-color: #3da3cf;
     --third-color: #F7D417;
     --accent-color1: #D2D5DD;
-    --accent-color2: #F8FA90;
+    --accent-color2: #f9faa7;
 
     --heading-font: 'Open Sans', serif;
     --paragraph-font: 'Source Sans Pro', serif;
@@ -266,6 +266,8 @@ button:hover {
     background-color: lightgreen;
     color: blue;
 }
+
+
 
 footer {
     display: block;
