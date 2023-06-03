@@ -105,6 +105,7 @@ h1 {
     text-align: center;
     background-color: #D2D5DD;
     opacity: .6;
+    font-size: 3rem;
 
 }
 
@@ -113,10 +114,10 @@ article {
     position: absolute;
     float: left;
     text-align: left;
-	top: 40%;
+	top: 45%;
 	right: 33%;
     left: 33%;
-    bottom: 24%;
+    bottom: 18%;
     
 	background: var(--accent-color2);
 	padding: 0.65rem;
@@ -322,6 +323,61 @@ td {
     border: 2px solid var(--primary-color);
 }
 
+.flexthingy {
+    display: flex;
+}
+
+.flexthingy div {
+    display: block;
+    margin: 4px;
+    
+    padding: 1rem;
+    border: 2px solid var(--primary-color);
+    background-color: var(--accent-color2);
+    max-width: 480px;
+}
+
+
+.flexthingy label, p {
+    font-size: 1.15rem;
+}
+
+.sdff div {
+    display: flex;
+}
+
+.flexthingy input {
+    width: 13rem;
+}
+
+.wacky {
+    padding: 1rem;
+    background-color: var(--secondary-color);
+}
+
+.wacky h2 {
+    padding-bottom: 1rem;
+}
+
+.gridstuff {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gridstuff img, figcaption {
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 97%;
+    height: auto;
+}
+
+.gridstuff p {
+    padding-top: 1rem;
+    grid-column: 1/4;
+}
 
 
 footer {
