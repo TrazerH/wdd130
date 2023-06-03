@@ -12,9 +12,9 @@
     --heading-font: 'Open Sans', serif;
     --paragraph-font: 'Source Sans Pro', serif;
 
-    --nav-background-color: #102E4A;
+    --nav-background-color: #091c2e;
     --nav-link-color: #2E86AB;
-    --nav-hover-link-color: #102E4A;
+    --nav-hover-link-color: #091c2e;
     --nav-hover-background-color: #F8FA90;
 }
 
@@ -72,7 +72,7 @@ nav a:hover {
 .headerbox {
     display: grid;
     grid-template-columns: 1fr 8fr;
-    background-color: #102E4A;
+    background-color: var(--primary-color);
     padding: 1rem;
 }
 
@@ -221,7 +221,7 @@ fieldset {
     grid-gap: 1rem;
     margin: 1rem;
     border: 1px solid var(--primary-color);
-    background-color: #F8FA90;
+    background-color: var(--accent-color2);
     padding: 1rem;
 }
 
@@ -330,7 +330,7 @@ footer {
     padding: 1rem;
     display: grid;
     grid-template-columns: 3fr 1fr;
-    background-color: #102E4A;
+    background-color: var(--primary-color);
     padding: 1rem;
     
 }
